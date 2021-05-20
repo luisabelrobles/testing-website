@@ -1,0 +1,64 @@
+/* GLOBAL */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+section {
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.center p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: darkgray;
+}
+/* INDEX  */
+a.home-button:link, a.home-button:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: .3rem 2rem;
+    display: inline-block;
+    transition: 1s;
+}
+a.home-button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* HOME */
+
+.hero {
+    text-align: left;
+    padding: 0 4rem 0 4rem;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: .5rem;
+}
+.hero p {
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+    margin-bottom: 0;
+}
+
